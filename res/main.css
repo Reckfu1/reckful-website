@@ -61,6 +61,7 @@ a {
     opacity: .6;
     -webkit-transition: opacity .2s linear;
     transition: opacity .2s linear;
+    font-weight: 300;
 }
 
 .box-p:hover{
@@ -71,9 +72,30 @@ a {
     color:#9A9B94;
     opacity: 1;
     -webkit-transition:color .2s linear;
+    -webkit-transition:color .3s linear;
     transition:color .3s linear;
+    font-weight: 300;
 }
 
 .info a:hover{
     color: #F96D00;
+}
+
+#formyself{
+    color:#9A9B94;
+    opacity: 0;
+    position: absolute;
+    bottom:5px;
+    right:5px;
+    -webkit-transition: all .35s linear;
+    transition: all .35s linear;
+    font-weight: 300;
+    cursor: default;
+    -webkit-user-select:none;
+       -moz-user-select:none;
+        -ms-user-select:none;
+            user-select:none;
+}
+#formyself:hover{
+    opacity: 1;
 }
